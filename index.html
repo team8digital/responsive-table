@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Team 8: Responsive Table</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Load jQuery -->
+  <script src="js/jquery-2.2.4-min.js"></script>
+  <!-- CSS Styles -->
+  <link href="css/normalise.css" rel="stylesheet" type="text/css">
+  <link href="css/responsive-table.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <h1>Team 8 Digital: Responsive Table</h1>
+
+  <table id="table" class="responsive-table-example">
+    <thead>
+      <tr>
+        <th>Company</th>
+        <th>Location</th>
+        <th>Staff</th>
+        <th>Speciality</th>
+        <th>Turnover</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Team 8 Digital</td>
+        <td>Bridgend</td>
+        <td>9</td>
+        <td>Software Development</td>
+        <td>&pound;300,000</td>
+      </tr>
+      <tr>
+        <td>Spindogs</td>
+        <td>Cardiff</td>
+        <td>14</td>
+        <td>Web Design</td>
+        <td>&pound;500,000</td>
+      </tr>
+      <tr>
+        <td>Box UK</td>
+        <td>Cardiff</td>
+        <td>22</td>
+        <td>Web Development</td>
+        <td>&pound;650,000</td>
+      </tr>
+      <tr>
+        <td>Ethos Digital</td>
+        <td>Talbot Green</td>
+        <td>6</td>
+        <td>Graphic Design</td>
+        <td>&pound;380,000</td>
+      </tr>
+      <tr>
+        <td>Creo</td>
+        <td>Cardiff</td>
+        <td>18</td>
+        <td>Web Development</td>
+        <td>&pound;700,000</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    <h4>&copy; Team 8 Digital</h4>
+  </footer>
+
+  <!-- Load Plugin -->
+  <script src="js/jquery.responsive-table.js"></script>
+
+
+  <!-- Initialise Plugin -->
+  <script>
+
+  $(function() {
+
+    $("#table").responsiveTables();
+
+  });
+
+  </script>
+
+</body>
+</html>
