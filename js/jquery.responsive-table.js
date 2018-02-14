@@ -10,7 +10,6 @@
         if ( settings.color ) {
           $(this).css( 'color', settings.color );
         } else {
-          console.log("none");
         }
 
         // For each table within the specified area
@@ -46,10 +45,6 @@
             }
 
             if($(this).width() <= 768) {
-                /*$('.ymatebol').find('tr td:first-child').click(function() {
-                    $(this).next().slideToggle('fast');
-                    $('tr td:nth-child(n+2)').each($(this).next()).slideUp('fast');
-                });*/
                 $('.ymatebol tr td:first-child').on('click', function() {
                     if($(this).hasClass("custom-tab")) {
                         $(this).removeClass('custom-tab').siblings().show();
