@@ -1,10 +1,13 @@
 # Responsive Table - Open Source Plugin
 
 [![Wercker](https://img.shields.io/wercker/ci/wercker/docs.svg)]()
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=flat-square)]()
 
 ## About this plugin
 
-plugin detail text
+We decided to create this tiny, efficient plugin that turns regular tables into responsive tables on a smaller screen. The only other possible solution is to create a parent div and set a overflow on this. Our solutions requires no extra divs.
+
+Simply install the plugin, link the jQuery and jQuery Plugin files and Initialise the plugin
 
 ## Install & Setup
 
@@ -69,10 +72,6 @@ git clone https://github.com/team8digital/responsive-table.git
       <td>Your Data</td>
       <td>Your Data</td>
     </tr>
-    <tr>
-      <td>Your Data</td>
-      <td>Your Data</td>
-    </tr>
   </tbody>
 </table>
 ```
@@ -94,3 +93,7 @@ $(function() {
 
 </script>
 ```
+
+## License
+
+This tiny plugin is open source, feel free to credit us by linking to: http://team8digital.uk/
