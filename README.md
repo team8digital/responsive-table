@@ -1,7 +1,6 @@
 # Responsive Table - Open Source Plugin
 
 [![Wercker](https://img.shields.io/wercker/ci/wercker/docs.svg)]()
-[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=flat-square)]()
 
 ## About this plugin
 
